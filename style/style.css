@@ -53,16 +53,15 @@ header .headerBody h1 {
 /* header part style end */
 
 /* section-1 style start */
-.section-1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-1-container {
   width: 50%;
   max-width: 800px;
-  
 }
 .section-1-container .section-1-header h1 {
   color: #f00;
@@ -70,7 +69,7 @@ header .headerBody h1 {
   font-family: Inter;
   font-size: 70px;
   font-weight: 700;
-  line-height:normal;
+  line-height: normal;
   margin: 4.5% auto;
 }
 .section-1-container .section-1-header p {
@@ -90,16 +89,79 @@ header .headerBody h1 {
   font-weight: 700;
   line-height: normal;
 }
-.section-1 .section-1-container .section-1-img{
-    margin: 48px auto;
+.section-1 .section-1-container .section-1-img {
+  margin: 48px auto;
 }
-.section-1 .section-1-container .section-1-img img{
-    width: 100%;
+.section-1 .section-1-container .section-1-img img {
+  width: 100%;
 }
 
 /* section-1 style end */
 
 /* section-2 style start */
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 .section-2-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 82%;
+  height: 500px;
+  max-width: 1320px;
+  background-image: url("/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;  
+}
+.section-2 .section-2-container .section-2-text{
+    width: 60%;
+    margin: auto;
+    margin-left: 11%;
+}
+.section-2 .section-2-container .section-2-img{
+    width: 40%;
+    margin: auto;
+}
+.section-2 .section-2-container .section-2-img img{
+    max-width: 280px;
+    height: 300px;
+}
+
+.section-2 .section-2-container .section-2-text h1 {
+  color: #fff;
+  font-family: Merriweather;
+  letter-spacing: 7.04px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.section-2 .section-2-container .section-2-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 60%;
+}
+
+.section-2 .section-2-container .section-2-text button {
+  color: #ffffff;
+  background: transparent;
+  font-family: Inter;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  padding: 3%;
+}
+
+
+
 /* section-2 style end */
 
 /* section-3 style start */
