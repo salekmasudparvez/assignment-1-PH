@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Merriweather:ital,wght@0,300;0,900;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header part style start */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header .Headercontainer {
+  position: absolute;
+  top: 3%;
+  background-image: url("/images/Banner\ Image.png");
+  width: 82%;
+  max-width: 1320px;
+  filter: brightness(0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 150px;
+  border-radius: 16px;
+}
+header .headerBody {
+  margin: 13% auto;
+}
+
+header .headerBody p {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.875rem;
+  font-weight: lighter;
+  line-height: normal;
+  filter: brightness(1);
+}
+header .headerBody h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  filter: brightness(1);
+}
+
+/* header part style end */
+
+/* section-1 style start */
+.section-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-container {
+  width: 50%;
+  max-width: 800px;
+  
+}
+.section-1-container .section-1-header h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height:normal;
+  margin: 4.5% auto;
+}
+.section-1-container .section-1-header p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.section-1-container .section-1-header h5 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-1 .section-1-container .section-1-img{
+    margin: 48px auto;
+}
+.section-1 .section-1-container .section-1-img img{
+    width: 100%;
+}
+
+/* section-1 style end */
+
+/* section-2 style start */
+/* section-2 style end */
+
+/* section-3 style start */
+/* section-3 style end */
+
+/* section-4 style start */
+/* section-4 style end */
+
+/* section-5 style start */
+/* section-5 style end */
+
+/* section-6 style start */
+/* section-6 style end */
+
+/* section-7 style start */
+/* section-7 style end */
