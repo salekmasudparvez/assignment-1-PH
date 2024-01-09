@@ -340,7 +340,7 @@ header .Headercontainer .headerBody h1 {
 }
 
 .section-5-body {
-  background-image: url("/images/Rectangle\ 2.png");
+  background-image: url("./images/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position-y: 300px;
   display: flex;
