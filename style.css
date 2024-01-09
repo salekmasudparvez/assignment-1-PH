@@ -22,7 +22,7 @@ header .Headercontainer {
 }
 
 header .Headercontainer .headerBody {
-  background: url("/images/Banner\ Image.png") no-repeat;
+  background: url("./images/Banner\ Image.png") no-repeat;
   background-size: cover;
   border-radius: 16px;
   margin: auto;
@@ -114,7 +114,7 @@ header .Headercontainer .headerBody h1 {
   max-width: 1320px;
   height: 28rem;
   margin: 5rem;
-  background-image: url("/images/Vectorrr.png");
+  background-image: url("./images/Vectorrr.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
